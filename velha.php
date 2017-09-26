@@ -10,41 +10,44 @@
 <style>
 
 
-        div.chess {
-            width: 600px;
-            height: 600px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            margin-top: -300px;
-            margin-left: -300px;
-            
-        }
+    div.chess {
+        width: 600px;
+        height: 600px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -300px;
+        margin-left: -300px;
+        
+    }
 
-        div.square {
-           background-color: #abc;
-		   width: 198px;
-            height: 198px;
-            border: solid black 1px;
-            display: inline;
-            float: left;
-            color: #ffffff;
-            font-family:sans-serif;
-            font-size: 185px;
-			cursor:pointer;
-			
-        }
+    div.square {
+        background-color: #abc;
+        width: 198px;
+        height: 198px;
+        border: solid black 1px;
+        display: inline;
+        float: left;
+        color: #ffffff;
+        font-family:sans-serif;
+        font-size: 185px;
+	      cursor:pointer;
+    }
+
 		table{
-			  width: 320px;
-           
+			  width: 320px;     
 		}
+
+    .contentSquare{
+      padding-left: 30px;
+    }
   </style>
 
 <body>
 
 <table>
 <tr><td>
-<div id="tabs">
+<!--<div id="tabs">
 <ul>
 	<li><a href="tab-1">STATUS</a></li>
     <li><a href="tab-2">RANK</a></li>
@@ -52,7 +55,7 @@
 </ul>
 <div id="tab-1"></div>
 <div id="tab-2"></div>
-</div>
+</div>-->
 </td></tr>
 
    <div class="chess">

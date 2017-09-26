@@ -25,23 +25,23 @@ try{
 		  {
 			if(jogada<10){
 			  
-			    
-			$(this).html("O");
-			jogada++;
-			campo[event.currentTarget.id]= 1
-			valor_2 = win[event.currentTarget.id] + total[0];
-			total[0] = valor_2;
-			Win();
+				$(this).html("<span class='contentSquare'>O</span>");
+				jogada++;
+				campo[event.currentTarget.id]= 1
+				valor_2 = win[event.currentTarget.id] + total[0];
+				total[0] = valor_2;
+				Win();
+				
 			}
 		  }else{
 			  if(jogada<10){
-			  $(this).html("X");
-			  
-			  campo[event.currentTarget.id]= 2;
-			  valor_1 = (win[event.currentTarget.id] + total[1]) ;
-			  total[1] = valor_1;
-			  jogada++;
-			  Win();
+				  $(this).html("<span class='contentSquare'>X</span>");
+				  
+				  campo[event.currentTarget.id]= 2;
+				  valor_1 = (win[event.currentTarget.id] + total[1]) ;
+				  total[1] = valor_1;
+				  jogada++;
+				  Win();
 			  }
 		  }
 		  if(circulo == true)

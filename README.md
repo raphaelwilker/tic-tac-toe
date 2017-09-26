@@ -1,2 +1,3 @@
 # tic-tac-toe
-Tic-tac-toe with php
+
+A simple tic-tac-toe game without IA.
